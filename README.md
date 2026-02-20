@@ -1,0 +1,1 @@
+This Project was deployed with Netlify . It is better for static sites made with HTML , CSS and JS . Now for more complex Projects that are made with Next.js and React use Cercel like the other Projects .
