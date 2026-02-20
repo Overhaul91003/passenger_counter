@@ -1,0 +1,56 @@
+body {
+    background-image: url("station.jpg");
+    background-size:cover;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;  /*For aking the height fit to the eintire page, Prevents repeating of Image.*/
+}
+
+#docBody {
+    background-color: blanchedalmond; /* This is basically all the styling required for the div tag .*/
+    max-width: 80%;                     /*at best it can strech to max 80% od the wisth od the screen*/
+    margin:auto;                        /*Middle , make it center*/
+    border : 3px solid black ;        /*Border 3 px , solid black*/
+    border-radius: 10px;                /*make the Borders curved*/
+}
+
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 3px solid black;    /*This is put in the Button tag so Evrything sharing the button tag gets this.*/
+}
+
+#increment-btn {
+    background: darkslateblue;
+    width: 30%;
+
+}
+
+#save-btn {
+    background: darkgreen;
+    width: 30%;
+}
+
+#prev_entries{
+    font: bold;
+}
+
